@@ -1,0 +1,128 @@
+/* General styles for the component (keep these) */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product {
+  flex: 0 0 calc(33.33% - 15px);
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+
+.product:last-child {
+  margin-right: 0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-bottom: 1px solid #eee;
+}
+
+.card-body {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+/* Updated CSS for the button container and buttons */
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px; /* Add some space above the buttons */
+}
+
+.btn {
+  flex-grow: 1; /* Distribute space evenly between buttons */
+  padding: 10px 15px; /* Increase padding for better touch area */
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem; /* Slightly larger font size */
+  cursor: pointer;
+  border: none; /* Remove default button borders */
+  transition: background-color 0.3s ease; /* Add smooth transition for hover effect */
+  text-align: center; /* Center the text within the button */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #333;
+}
+
+/* Hover effects for buttons */
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* Darker shade on hover */
+}
+
+/* Spacing between buttons */
+.btn-primary {
+  margin-right: 5px;
+}
+
+.btn-warning {
+  margin-left: 5px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+p strong {
+  font-weight: bold;
+}
+
+del {
+  color: #777;
+  text-decoration: line-through;
+}
+
+@media (max-width: 768px) {
+  .product {
+    flex: 0 0 calc(50% - 15px);
+  }
+}
+
+@media (max-width: 576px) {
+  .product {
+    flex: 0 0 100%;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "user": [
+    {
+      "name": "Ashish Mishra",
+      "mobNumber": "1234567891",
+      "age": 29,
+      "dob": "1995-05-12",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "address": {
+        "addLine1": "District Center",
+        "addLine2": "Janakpuri",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "zipCode": "110052"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "Bhojpuri"
+      ],
+      "gender": "Male",
+      "aboutYou": "I am a programmer...",
+      "uploadPhoto": "ashish.png",
+      "agreetc": true,
+      "role": "admin",
+      "id": "1",
+      "addLine1": "District Center",
+      "city": "New Delhi",
+      "state": "Delhi"
+    },
+    {
+      "aboutYou": "HGHJBHMBMBNHTRTYRYgfhfjfjh",
+      "age": 29,
+      "agreetc": true,
+      "dob": "2024-01-02",
+      "email": "asdd@gghh.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "876444654",
+        "addLine2": "FFFFHFGHHGFH",
+        "city": "GFHFHFFHG",
+        "state": "...",
+        "zipCode": "86764664646"
+      },
+      "language": [
+        "Hindi"
+      ],
+      "mobNumber": "8446878784466465",
+      "name": "TESTY CODEIZ",
+      "password": "123456789",
+      "uploadPhoto": "C:\\fakepath\\Angular 15 (29).png",
+      "role": "seller",
+      "id": "2"
+    },
+    {
+      "aboutYou": "Ashish here , You can learn Angular",
+      "age": 29,
+      "agreetc": true,
+      "dob": "1999-06-07",
+      "email": "ashish@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "language": [
+        "English",
+        "Hindi"
+      ],
+      "mobNumber": "83685222555",
+      "name": "Ashish Mishra",
+      "password": "123456789",
+      "uploadPhoto": "C:\\fakepath\\Angular 15 (32).png",
+      "role": "buyer",
+      "id": "3"
+    },
+    {
+      "id": "9191",
+      "aboutYou": "Nothing to tell me",
+      "age": 26,
+      "agreetc": true,
+      "dob": "1993-04-14",
+      "email": "anilseller@gmail.com",
+      "gender": "Male",
+      "address": {
+        "id": 0,
+        "addLine1": "1234 Main Street",
+        "addLine2": "Floor",
+        "city": "Hyderabad",
+        "state": "TN",
+        "zipCode": "123456"
+      },
+      "language": [
+        "Telugu"
+      ],
+      "mobNumber": "9491821331",
+      "name": "Anil",
+      "password": "112233",
+      "uploadPhoto": "C:\\fakepath\\WhatsApp Image 2025-03-30 at 2.43.17 PM.jpeg",
+      "role": "seller"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "mrp": "1000",
+      "dp": "699",
+      "status": "publish"
+    },
+    {
+      "id": "2",
+      "name": "Water Bottle",
+      "uploadPhoto": "https://myborosil.com/cdn/shop/files/my-borosil-water-bottles-900-ml-gosport-football-29838171046026_2024-05-24T10_23_18.063Z.png",
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+      "mrp": "100",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": "3",
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality \nRajasthan\nFabric Care\nMachine Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "600",
+      "dp": "599",
+      "status": "draft"
+    },
+    {
+      "id": "4",
+      "name": "TIZUM Aluminium Portable Stand",
+      "uploadPhoto": "https://images-cdn.ubuy.co.in/6499adbae6b3936c705ba576-ugreen-tablet-stand-holder-for-desk.jpg",
+      "productDesc": "The aluminium material used in the stand makes it sturdy and strong. Multi-angle fold-ability provides with a seamless viewing experience. The light weight of this stand allows it to be carried around everywhere conveniently.",
+      "mrp": "300",
+      "dp": "199",
+      "status": "inactive"
+    },
+    {
+      "id": "5",
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+      "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": "6",
+      "name": "Women's Yoga Mat (Anti-Slip, Eco-Friendly)",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/31SN0pJeBhL._SX300_SY300_QL70_FMwebp_.jpg",
+      "productDesc": "High-quality, anti-slip, and eco-friendly yoga mat for comfortable and safe workouts. Available in various colors.",
+      "mrp": "1100",
+      "dp": "749",
+      "status": "publish"
+    },
+    {
+      "id": "7",
+      "name": "Metro Living Self Design Pillows Cover",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+      "productDesc": "Regional Speciality \nRajasthan\nFabric Care\nMachine Wash, Do not Bleach, Wash in Cold Water \nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+      "mrp": "500",
+      "dp": "399",
+      "status": "publish"
+    },
+    {
+      "id": "8",
+      "name": "Stainless Steel Kitchen Knife Set (6 Pieces)",
+      "uploadPhoto": "https://rukminim1.flixcart.com/image/300/300/xif0q/kitchen-knife/a/f/l/6-kitchan-knife-star-work-20-original-imagr2gvabv42ncn.jpeg",
+      "productDesc": "A comprehensive set of high-quality stainless steel kitchen knives for all your cutting needs. Includes chef's knife, paring knife, utility knife, bread knife, and more.",
+      "mrp": "1500",
+      "dp": "999",
+      "status": "publish"
+    },
+    {
+      "id": "9",
+      "name": "Bluetooth Wireless Headphones with Noise Cancellation",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/41UhhUPV7vL._SX300_SY300_QL70_FMwebp_.jpg",
+      "productDesc": "Immerse yourself in music with these comfortable Bluetooth headphones featuring active noise cancellation and long battery life.",
+      "mrp": "2500",
+      "dp": "1999",
+      "status": "publish"
+    },
+    {
+      "id": "10",
+      "name": "Cotton Bed Sheet Set (Double Size, Floral Print)",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/61G6d22Q3oL._SY300_SX300_QL70_FMwebp_.jpg",
+      "productDesc": "Soft and breathable double-size cotton bed sheet set with a beautiful floral print. Includes one bedsheet and two pillow covers.",
+      "mrp": "1200",
+      "dp": "799",
+      "status": "publish"
+    },
+    {
+      "id": "11",
+      "name": "Men's Casual Sneakers (Running Shoes)",
+      "uploadPhoto": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/l/v/f/-original-imagzjw3byvpm45z.jpeg?q=90&crop=false",
+      "productDesc": "Comfortable and stylish casual sneakers perfect for everyday wear and light running. Available in various sizes and colors.",
+      "mrp": "1800",
+      "dp": "1299",
+      "status": "publish"
+    },
+    {
+      "id": "12",
+      "name": "Ceramic Coffee Mug Set (Set of 4, Assorted Colors)",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/81DoeQAB0iL._AC_UF894,1000_QL80_.jpg",
+      "productDesc": "A set of four vibrant and durable ceramic coffee mugs in assorted colors. Perfect for enjoying your morning coffee or tea.",
+      "mrp": "800",
+      "dp": "599",
+      "status": "publish"
+    },
+    {
+      "id": "13",
+      "name": "Wooden Wall Shelf (Floating Shelf, Set of 2)",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/41VkkTClaxL._SX300_SY300_QL70_FMwebp_.jpg",
+      "productDesc": "Stylish and functional set of two wooden floating wall shelves. Perfect for displaying photos, books, and decorative items.",
+      "mrp": "1400",
+      "dp": "949",
+      "status": "publish"
+    },
+    {
+      "id": "14",
+      "name": "Digital Kitchen Weighing Scale",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/41qaoh5l8jL._SY445_SX342_QL70_FMwebp_.jpg",
+      "productDesc": "Precise digital kitchen weighing scale with a large LCD display. Essential for accurate cooking and baking.",
+      "mrp": "900",
+      "dp": "649",
+      "status": "publish"
+    },
+    {
+      "id": "15",
+      "name": "Portable Bluetooth Speaker with FM Radio",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/41Y2Ovg8U3L._SX300_SY300_QL70_FMwebp_.jpg",
+      "productDesc": "Compact and powerful portable Bluetooth speaker with FM radio functionality. Perfect for outdoor activities and travel.",
+      "mrp": "1600",
+      "dp": "1199",
+      "status": "publish"
+    },
+    {
+      "id": "16",
+      "name": "Water Bottle",
+      "uploadPhoto": "https://myborosil.com/cdn/shop/files/my-borosil-water-bottles-900-ml-gosport-football-29838171046026_2024-05-24T10_23_18.063Z.png",
+      "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in.",
+      "mrp": "123",
+      "dp": "99",
+      "status": "publish"
+    },
+    {
+      "id": "17",
+      "name": "LED Desk Lamp with Touch Control",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/41O5+jHPg0L._SY300_SX300_.jpg",
+      "productDesc": "Modern LED desk lamp with touch control, adjustable brightness, and multiple lighting modes. Ideal for studying and working.",
+      "mrp": "1300",
+      "dp": "899",
+      "status": "publish"
+    },
+    {
+      "id": "18",
+      "name": "Sandisk 1TB Hard Disc Drive",
+      "uploadPhoto": "https://m.media-amazon.com/images/I/41eTFK7clfL._SX300_SY300_QL70_FMwebp_.jpg",
+      "productDesc": "Travel worry-free with a 5-year limited warranty provided by SanDisk and a durable silicone shell that offers a premium feel and added protection to the drive’s exterior.",
+      "mrp": "14,800",
+      "dp": "10,699",
+      "status": "publish"
+    },
+    {
+      "id": "19",
+      "name": "Google Pixel 8a",
+      "uploadPhoto": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSwIxvMES6z8AuUBdXhn2-HM8P7O7S1yXczHf3XzGnfsXD3XUVmD-izNLTOmvbwK2Nal3Fclq7MMMEjnUC8AB-_0a96x-SrWwe_MxoPnH5aXPZ5z-oBbkBQ",
+      "productDesc": "Best Google Smart phone in this Price Range",
+      "mrp": "49,999",
+      "dp": "37,999",
+      "status": "publish"
+    },
+    {
+      "id": "0",
+      "name": "g",
+      "uploadPhoto": "h",
+      "productDesc": "m",
+      "mrp": "100",
+      "dp": "90",
+      "status": "darft"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "Marathalli",
+        "addLine2": "Aswathnagar",
+        "city": "Bangalore",
+        "state": "Choose...",
+        "zipCode": 560037
+      },
+      "contact": "09040398006",
+      "dateTime": "18/07/2019"
+    },
+    {
+      "id": "0",
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": "1",
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jcf487k0/curtain/w/e/y/elegant-cream-door-curtains-set-of-2-213-soe-fsb-120-120-eyelet-original-imaffk7f9wng4v4m.jpeg",
+        "productDesc": "Transform the ambiance of your home with these elegant, crushed texture, light weight, solid color curtains. These curtains are available in several colors and sizes to match to your home decor and the gracefully flowing polyester is durable and machine washable for your convenience.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "4/2/2025"
+    },
+    {
+      "id": "0",
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": "2",
+        "name": "Water Bottle",
+        "uploadPhoto": "https://myborosil.com/cdn/shop/files/my-borosil-water-bottles-900-ml-gosport-football-29838171046026_2024-05-24T10_23_18.063Z.png",
+        "productDesc": "Hygienic bottle: The bottle is made of 100% food grade material & is BPA free ensures a safe drinking. Crystal Clarity: It's sheer body helps to easily identify the contents & also adds beauty to the liquid that you put in, Leak Proof: The bottle has a liquid tight cap that prevents leakage & is unbreakable. Freezer safe: These bottles are compatible with refrigerator & not being curvy the bottle occupies less space. Looks pretty in the fridge or on the table top.",
+        "mrp": "100",
+        "dp": "99",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "4/2/2025"
+    },
+    {
+      "id": 0,
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": "3",
+        "name": "Metro Living Self Design Pillows Cover",
+        "uploadPhoto": "https://rukminim1.flixcart.com/image/832/832/jjsw4nk0/cushion-pillow-cover/e/z/z/epl12-metro-living-original-imaf7ah6zstjyevd.jpeg",
+        "productDesc": "Regional Speciality \nRajasthan\nFabric Care\nMachine Wash, Do not Bleach, Wash in Cold Water\nThread Count\n104\nSales Package\nPack of 2 Pillow Cover",
+        "mrp": "600",
+        "dp": "599",
+        "status": "draft"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "new delho",
+        "addLine2": "wx -1520",
+        "city": "delhi",
+        "state": "...",
+        "zipCode": "325863558"
+      },
+      "contact": "83685222555",
+      "dateTime": "4/3/2025"
+    }
+  ]
+}

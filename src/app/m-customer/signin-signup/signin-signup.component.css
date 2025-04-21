@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f0e1; /* Light Almond for page background */
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: #ffffff; /* White for form container */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Elegant shadow */
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  color: #1e3d59; /* Navy for headings */
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #3b4d61; /* Charcoal for labels */
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  width: calc(100% - 30px); /* Adjust width to account for padding */
+  padding: 12px; /* Increased padding for comfort */
+  border-radius: 5px; /* Rounded corners for input fields */
+  border: 1px solid #ced4da; /* Subtle border to make inputs visible */
+  background-color: #ffffff; /* White background for input fields */
+}
+
+/* Add shadow and focus effect to inputs */
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    outline: none; /* Remove default outline */
+    border-color: #1e3d59; /* Navy border on focus for emphasis */
+    box-shadow: inset 0px 0px 5px rgba(30,61,89,0.2); /* Soft inner shadow on focus */
+}
+
+/* Textarea styling */
+textarea {
+    resize: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #ff6e40; /* Red-Orange for buttons */
+    color: white;
+    padding: 12px; /* Increased padding for comfort */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #ffc13b; /* Mango on hover */
+}
+
+/* Checkbox and Radio Buttons */
+.form-check-label {
+    margin-left: 5px;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
+
+/* Sim Pointer Styling */
+.sim-pointer {
+    display: block; /* Makes it a block element for better spacing */
+    text-align: center; /* Center align the text */
+    color: #1e3d59; /* Navy color for the link text */
+    margin-top: 20px; /* Space above the link */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.sim-pointer:hover {
+    color: #ff6e40; /* Change color on hover to Red-Orange */
+    text-decoration: underline; /* Underline on hover for interactivity feedback */
+}
+
+/* Responsive Design */
+@media (max-width:768px) {
+    .col-md-6.offset-md-3 {
+        margin-left: auto !important; 
+        margin-right:auto !important; 
+    }
+    form{
+        width:auto; 
+    }
+}

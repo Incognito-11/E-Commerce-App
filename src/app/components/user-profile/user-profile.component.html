@@ -1,0 +1,63 @@
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <h2>User Profile</h2>
+
+        <!-- Read-only view -->
+        <div *ngIf="!isEditMode">
+          <p><strong>Name:</strong> {{ userProfileForm.value.name }}</p>
+          <p><strong>Mobile:</strong> {{ userProfileForm.value.mobNumber }}</p>
+          <p><strong>Age:</strong> {{ userProfileForm.value.age }}</p>
+          <p><strong>DOB:</strong> {{ userProfileForm.value.dob }}</p>
+          <p><strong>Email:</strong> {{ userProfileForm.value.email }}</p>
+          <p><strong>Gender:</strong> {{ userProfileForm.value.gender }}</p>
+          <p><strong>Address:</strong> {{ userProfileForm.value.addLine1 }}, {{ userProfileForm.value.city }}, {{ userProfileForm.value.state }}</p>
+          <p><strong>Languages:</strong> {{ userProfileForm.value.language?.join(', ') }}</p>
+          <button class="btn btn-primary" (click)="toggleEdit()">Edit Profile</button>
+        </div>
+
+        <!-- Edit mode form -->
+        <form *ngIf="isEditMode" [formGroup]="userProfileForm" (ngSubmit)="updateProfile()">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" formControlName="name">
+          </div>
+          <div class="form-group">
+            <label for="mobNumber">Mobile Number</label>
+            <input type="tel" id="mobNumber" class="form-control" formControlName="mobNumber">
+          </div>
+          <div class="form-group">
+            <label for="age">Enter Your Age</label>
+            <input type="number" id="age" class="form-control" formControlName="age">
+          </div>
+          <div class="form-group">
+            <label for="dob">Enter Your DOB</label>
+            <input type="date" id="dob" class="form-control" formControlName="dob">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" formControlName="email">
+          </div>
+          <div class="form-group">
+            <label>Gender</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" formControlName="gender" value="Male">
+              <label class="form-check-label">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" formControlName="gender" value="Female">
+              <label class="form-check-label">Female</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="aboutYou">Something About You</label>
+            <textarea class="form-control" id="aboutYou" rows="3" formControlName="aboutYou"></textarea>
+          </div>
+          <button class="btn btn-success" type="submit">Save Changes</button>
+          <button class="btn btn-secondary" type="button" (click)="toggleEdit()">Cancel</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
